@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="268164" started-at="2017-12-05T09:16:32Z" finished-at="2017-12-05T09:21:00Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="268164" started-at="2017-12-05T09:16:32Z" finished-at="2017-12-05T09:21:00Z">
+      <class name="test.chet.TC02">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC02@f5f2bb7]" name="test2" duration-ms="133309" started-at="2017-12-05T14:48:47Z" finished-at="2017-12-05T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.chet.TC02 -->
+      <class name="test.chet.TC01">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC01@17ed40e0]" name="test2" duration-ms="134840" started-at="2017-12-05T14:46:32Z" finished-at="2017-12-05T14:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.chet.TC01 -->
+      <class name="test.chet.TC04">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC04@64c64813]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.chet.TC04 -->
+      <class name="test.chet.TC03">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC03@282ba1e]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.chet.TC03 -->
+      <class name="test.chet.TC06">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC06@75412c2f]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.chet.TC06 -->
+      <class name="test.chet.TC05">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC05@13b6d03]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.chet.TC05 -->
+      <class name="test.chet.TC07">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC07@73035e27]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.chet.TC07 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- TestSuite -->
+</testng-results>
