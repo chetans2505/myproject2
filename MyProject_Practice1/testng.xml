@@ -7,10 +7,6 @@
       <class name="test.chet.TC01"/>
       <class name="test.chet.TC02"/>
       <class name="test.chet.TC03"/>
-      <class name="test.chet.TC04"/>
-      <class name="test.chet.TC05"/>
-      <class name="test.chet.TC06"/>
-      <class name="test.chet.TC07"/>
     </classes>
   </test> <!-- Test2 -->
 </suite> <!-- TestSuite -->
