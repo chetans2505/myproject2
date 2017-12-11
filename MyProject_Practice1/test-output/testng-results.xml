@@ -1,53 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="268164" started-at="2017-12-05T09:16:32Z" finished-at="2017-12-05T09:21:00Z">
+  <suite name="TestSuite" duration-ms="132128" started-at="2017-12-11T10:47:09Z" finished-at="2017-12-11T10:49:21Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="268164" started-at="2017-12-05T09:16:32Z" finished-at="2017-12-05T09:21:00Z">
+    <test name="Test2" duration-ms="132128" started-at="2017-12-11T10:47:09Z" finished-at="2017-12-11T10:49:21Z">
       <class name="test.chet.TC02">
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC02@f5f2bb7]" name="test2" duration-ms="133309" started-at="2017-12-05T14:48:47Z" finished-at="2017-12-05T14:51:00Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC02@754ba872]" name="test2" duration-ms="132082" started-at="2017-12-11T16:17:09Z" finished-at="2017-12-11T16:19:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
       </class> <!-- test.chet.TC02 -->
       <class name="test.chet.TC01">
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC01@17ed40e0]" name="test2" duration-ms="134840" started-at="2017-12-05T14:46:32Z" finished-at="2017-12-05T14:48:47Z">
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:test.chet.TC01@77cd7a0]" name="test2" duration-ms="22" started-at="2017-12-11T16:17:09Z" finished-at="2017-12-11T16:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
       </class> <!-- test.chet.TC01 -->
-      <class name="test.chet.TC04">
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC04@64c64813]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- test.chet.TC04 -->
       <class name="test.chet.TC03">
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC03@282ba1e]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:test.chet.TC03@146ba0ac]" name="test2" duration-ms="4" started-at="2017-12-11T16:19:21Z" finished-at="2017-12-11T16:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
       </class> <!-- test.chet.TC03 -->
-      <class name="test.chet.TC06">
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC06@75412c2f]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- test.chet.TC06 -->
-      <class name="test.chet.TC05">
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC05@13b6d03]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- test.chet.TC05 -->
-      <class name="test.chet.TC07">
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.chet.TC07@73035e27]" name="test2" duration-ms="0" started-at="2017-12-05T14:51:00Z" finished-at="2017-12-05T14:51:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- test.chet.TC07 -->
     </test> <!-- Test2 -->
   </suite> <!-- TestSuite -->
 </testng-results>

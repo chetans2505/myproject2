@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" name="TestSuite" parallel="tests">
   <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.reports.MyNXGTestListner"/>
+   
+  </listeners>
   <test name="Test2">
     <classes>
       <class name="test.chet.TC01"/>

@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
 import org.testng.xml.XmlClass;
 import org.testng.xml.XmlSuite;
@@ -82,10 +83,25 @@ public class XmlSuiteCreator {
 		test1.setXmlClasses(classes);
 		}
 		
+		suite.addListener("com.reports.MyNXGTestListner.class");
+		suite.addListener("com.reports.MyResultPageWriter.class");
+		/* TestListenerAdapter tla = new TestListenerAdapter();
+		    List<Class> listenerClasses = new ArrayList<Class>();
+		    listenerClasses.add(com.reports.MyNXGTestListner.class);
+		    listenerClasses.add(com.reports.MyResultPageWriter.class);*/
+		  /*  myTestNG.setUseDefaultListeners(true);
+		    myTestNG.addListener(tla);
+		*/
 		List<XmlSuite> suite1=new ArrayList<XmlSuite>();
 		//suite1.add(suite);
 		suite.addTest(test1);
 		suite1.add(suite);
+		TestNG testng=new TestNG();
+		//testng.setXmlSuites(suite1);
+		/*testng.setUseDefaultListeners(true);
+		testng.addListener(listenerClasses);*/
+		testng.run();
+		
 		try {
 			FileWriter writer=new FileWriter("testng.xml");
 			writer.write(suite.toXml());
@@ -94,10 +110,9 @@ public class XmlSuiteCreator {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		suite.addListener("listenerClasses");
 		
-		TestNG testng=new TestNG();
-		//testng.setXmlSuites(suite1);
-		testng.run();
+		
 		
 		/*String workingDirectory = System.getProperty("user.dir");
 		 List<String> testFilesList = new ArrayList<String>();

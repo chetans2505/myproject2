@@ -25,5 +25,10 @@ public class ExcelValues {
 		
 	}
 
+	public static int readData(String filePath, String string) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 }
